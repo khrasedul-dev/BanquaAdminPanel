@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banqua :: Dashboard </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="adminContainer">
+
+        <div class="sidebarSide" id="toggleData">
+            <div class="topBox">
+                <div id="close" class="only-mob" style="float: right; width: 15px; margin-top: -20px; margin-right: 20px;">
+                    <img src="./img/close.png" alt="Close">
+                </div>
+                <div class="logoContainer">
+                    <div class="logoIcon"> 
+                        <img src="./img/logo.png" alt="Banqua">
+                    </div>
+                    <div class="logoText">Banqua</div>
+                </div>
+            </div>
+            <div class="bottomBox">
+                <div class="linkList">
+                    <h1>Dashboard</h1>
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/home.png" alt="Home">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Home</a>
+                        </div>
+                    </div>
+
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/order.png" alt="Order">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Orders</a>
+                        </div>
+                    </div>
+                
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/user.png" alt="User">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Users</a>
+                        </div>
+                    </div>
+
+                    <h1>Payment</h1>
+
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/pay.png" alt="pay">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Pay</a>
+                        </div>
+                    </div>
+
+                    <h1>Security</h1>
+                
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/setting.png" alt="Setting">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Setting</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="contentSide">
+            <div class="mobileheader" id="menuToggle">
+                <div style="display: flex;align-items: center;justify-content: center;  ">
+                    <a href="#">
+                        <img style="width: 80px;" src="./img/menu2.png" alt="Menu">
+                    </a>
+                    <span style="font-size: 32px; font-weight: bold; color: #2e4765;">Menu</span>
+                </div>
+                
+                <div>
+                    <a href="#">
+                        <img src="./img/order-q.png" alt="Order">
+                    </a>
+                </div>
+            </div>
+            <div class="topHeader">
+                <div>
+                    <form action="" class="searchBox">
+                        <button type="submit">
+                            <img src="./img/search.png" alt="search">
+                        </button>
+                        <input type="text" name="search" id="searchValue" placeholder="Search here...">
+                    </form>
+                </div>
+                <div class="headerIconBox">
+                    <a class="d-flex" href="#">
+                        <img style="padding-right: 25px;" src="./img/order-q.png" alt="Order">
+                        <span class="sup_order">5</span>
+                    </a>
+                    
+                    <a class="d-flex " href="#">
+                        <img style="padding-left: 25px;" src="./img/profile.png" alt="Admin">
+                        <span style="padding-left: 10px; font-family: 'Rajdhani', sans-serif;" class="tttt">Rasedul</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="mainContent">
+                <div class="settingForm">
+
+                    <div class="mt-50px">
+                        <h1>Order update </h1>
+                        <form action="#">
+                            <div class="inputBox">
+                                <label for="lgt31">Order ID</label>
+                                <input type="text" name="" id="lgt31" value="2334" disabled>
+                            </div>
+                            <div class="inputBox">
+                                <label for="jfakl">Name</label>
+                                <input type="text" name="" id="jfakl" value="Kh Rasedul" disabled>
+                            </div>
+                            <div class="inputBox">
+                                <label for="kfjak">Amount</label>
+                                <input type="text" name="" id="kfjak" value="3473" disabled>
+                            </div>
+                           
+                            <div class="inputBox">
+                                <label for="ajkfka">Order status</label>
+                                <select class="select-x" name="" id="ajkfka">
+                                    <option value="">Delivered</option>
+                                    <option value="">Pending</option>
+                                    <option value="">Dismiss</option>
+                                </select>
+                            </div>
+
+                            <button type="submit">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

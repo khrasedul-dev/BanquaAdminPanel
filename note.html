@@ -1,0 +1,118 @@
+    <div class="linkSingle">
+        <div class="linkLogo">
+            <img src="./img/order.png" alt="Order">
+        </div>
+        <div class="link">
+            <a target="_blank" href="#">Order</a>
+        </div>
+    </div>
+
+    <div class="linkSingle">
+        <div class="linkLogo">
+            <img src="./img/user.png" alt="User">
+        </div>
+        <div class="link">
+            <a target="_blank" href="#">User</a>
+        </div>
+    </div>
+
+    <div class="linkSingle">
+        <div class="linkLogo">
+            <img src="./img/setting.png" alt="Setting">
+        </div>
+        <div class="link">
+            <a target="_blank" href="#">Setting</a>
+        </div>
+    </div>
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eff1f7;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.adminContainer{
+    display: grid;
+    grid-template-columns: sidebar content content content content content;
+    
+}
+
+
+.adminSidebar{
+    grid-area: sidebar;
+    background-color: #fff;
+    height: 100vh;
+    position: fixed;
+    padding: 40px;
+    float: left;
+}
+
+
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.logoIcon img{
+    height: 80px;
+}
+
+.logoText{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Rajdhani', sans-serif;
+    color: #2e4760;
+}
+
+.bottomBox{
+    padding-top: 20px;
+}
+
+
+.linkList h1{
+    color: #2daab8;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.linkSingle{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.linkLogo{
+    padding: 10px 15px;
+}
+.linkLogo img{
+    height: 35px;
+}
+
+.link a{
+    color: #16bbe5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.adminContent{
+    grid-area: content;
+}
+
+.adminHeaderBg{
+    background-color: #fff;
+    width: 100%;
+}
+

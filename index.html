@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banqua :: Dashboard </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="adminContainer">
+
+        <div class="sidebarSide" id="toggleData">
+            <div class="topBox">
+                <div id="close" class="only-mob" style="float: right; width: 15px; margin-top: -20px; margin-right: 20px;">
+                    <img src="./img/close.png" alt="Close">
+                </div>
+                <div class="logoContainer">
+                    <div class="logoIcon"> 
+                        <img src="./img/logo.png" alt="Banqua">
+                    </div>
+                    <div class="logoText">Banqua</div>
+                </div>
+            </div>
+            <div class="bottomBox">
+                <div class="linkList">
+                    <h1>Dashboard</h1>
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/home.png" alt="Home">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Home</a>
+                        </div>
+                    </div>
+
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/order.png" alt="Order">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Orders</a>
+                        </div>
+                    </div>
+                
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/user.png" alt="User">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Users</a>
+                        </div>
+                    </div>
+
+                    <h1>Payment</h1>
+
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/pay.png" alt="pay">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Pay</a>
+                        </div>
+                    </div>
+
+                    <h1>Security</h1>
+                
+                    <div class="linkSingle">
+                        <div class="linkLogo">
+                            <img src="./img/setting.png" alt="Setting">
+                        </div>
+                        <div class="link">
+                            <a target="_blank" href="#">Setting</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="contentSide">
+            <div class="mobileheader" id="menuToggle">
+                <div style="display: flex;align-items: center;justify-content: center;  ">
+                    <a href="#">
+                        <img style="width: 80px;" src="./img/menu2.png" alt="Menu">
+                    </a>
+                    <span style="font-size: 32px; font-weight: bold; color: #2e4765;">Menu</span>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./img/order-q.png" alt="Order">
+                    </a>
+                </div>
+            </div>
+            <div class="topHeader">
+                <div>
+                    <form action="" class="searchBox">
+                        <button type="submit">
+                            <img src="./img/search.png" alt="search">
+                        </button>
+                        <input type="text" name="search" id="searchValue" placeholder="Search here...">
+                    </form>
+                </div>
+                <div class="headerIconBox">
+                    <a class="d-flex" href="#">
+                        <img style="padding-right: 25px;" src="./img/order-q.png" alt="Order">
+                        <span class="sup_order">5</span>
+                    </a>
+                    
+                    <a class="d-flex" href="#">
+                        <img style="padding-left: 25px;" src="./img/profile.png" alt="Admin">
+                        <span style="padding-left: 10px; font-family: 'Rajdhani', sans-serif;" class="tttt">Rasedul</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="mainContent">
+
+                <div class="dbDataBox">
+                    <div class="singleData">
+                        <div class="dataLogo">
+                            <img src="./img/people.png" alt="User">
+                        </div>
+                        <div class="dataText">
+                            <div class="dbtextHeading">520</div>
+                            <div class="dbsubtext">Users</div>
+                        </div>
+                    </div>
+
+                    <div class="singleData">
+                        <div class="dataLogo">
+                            <img src="./img/order-t.png" alt="Orders">
+                        </div>
+                        <div class="dataText">
+                            <div class="dbtextHeading">680</div>
+                            <div class="dbsubtext">Orders</div>
+                        </div>
+                    </div>
+
+                    <div class="singleData">
+                        <div class="dataLogo">
+                            <img style="margin-top: 10px;" src="./img/earn.png" alt="User">
+                        </div>
+                        <div class="dataText">
+                            <div class="dbtextHeading">400</div>
+                            <div class="dbsubtext">Total Earn</div>
+                        </div>
+                    </div>
+
+                    <div class="singleData">
+                        <div class="dataLogo">
+                            <img src="./img/coin.png" alt="Coin">
+                        </div>
+                        <div class="dataText">
+                            <div class="dbtextHeading">999</div>
+                            <div class="dbsubtext">Coin Sell</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="order_q">
+                    <h1>Queue order</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Token</th>
+                                <th>Amount</th>
+                                <th>Pay by</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>KH Rasedul</td>
+                                <td>1200 BnQ</td>
+                                <td>$1200</td>
+                                <td>Visa Card</td>
+                                <td>Delivered</td>
+                                <td>12/05/2022</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>KH Rasedul</td>
+                                <td>1200 BnQ</td>
+                                <td>$1200</td>
+                                <td>Visa Card</td>
+                                <td>Delivered</td>
+                                <td>12/05/2022</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>KH Rasedul</td>
+                                <td>1200 BnQ</td>
+                                <td>$1200</td>
+                                <td>Visa Card</td>
+                                <td>Delivered</td>
+                                <td>12/05/2022</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>KH Rasedul</td>
+                                <td>1200 BnQ</td>
+                                <td>$1200</td>
+                                <td>Visa Card</td>
+                                <td>Delivered</td>
+                                <td>12/05/2022</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>KH Rasedul</td>
+                                <td>1200 BnQ</td>
+                                <td>$1200</td>
+                                <td>Visa Card</td>
+                                <td>Delivered</td>
+                                <td>12/05/2022</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="tableBox">
+                    <div class="last5user fl-50">
+                        <h1>Last users</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Join</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Kh Rasedul</td>
+                                    <td>Rasedul@gmail.com</td>
+                                    <td>12/05/2001</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kh Rasedul</td>
+                                    <td>Rasedul@gmail.com</td>
+                                    <td>12/05/2001</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Kh Rasedul</td>
+                                    <td>Rasedul@gmail.com</td>
+                                    <td>12/05/2001</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Kh Rasedul</td>
+                                    <td>Rasedul@gmail.com</td>
+                                    <td>12/05/2001</td>
+                                </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+
+                    <div class="last5trans fl-50">
+                        <h1>Last Transections</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Pay</th>
+                                    <th>Token</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rasedul</td>
+                                    <td>$1200</td>
+                                    <td>13000</td>
+                                    <td>34/2/3000</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rasedul</td>
+                                    <td>$1200</td>
+                                    <td>13000</td>
+                                    <td>34/2/3000</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rasedul</td>
+                                    <td>$1200</td>
+                                    <td>13000</td>
+                                    <td>34/2/3000</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rasedul</td>
+                                    <td>$1200</td>
+                                    <td>13000</td>
+                                    <td>34/2/3000</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Rasedul</td>
+                                    <td>$1200</td>
+                                    <td>13000</td>
+                                    <td>34/2/3000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
