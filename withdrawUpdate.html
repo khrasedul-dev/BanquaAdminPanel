@@ -89,13 +89,14 @@
         </div>
 
         <div class="contentSide">
-            <div class="mobileheader"id="menuToggle">
+            <div class="mobileheader" id="menuToggle">
                 <div style="display: flex;align-items: center;justify-content: center;  ">
                     <a href="#">
                         <img style="width: 80px;" src="./img/menu2.png" alt="Menu">
                     </a>
                     <span style="font-size: 32px; font-weight: bold; color: #2e4765;">Menu</span>
                 </div>
+                
                 <div>
                     <a href="#">
                         <img src="./img/order-q.png" alt="Order">
@@ -117,7 +118,7 @@
                         <span class="sup_order">5</span>
                     </a>
                     
-                    <a class="d-flex" href="#">
+                    <a class="d-flex " href="#">
                         <img style="padding-left: 25px;" src="./img/profile.png" alt="Admin">
                         <span style="padding-left: 10px; font-family: 'Rajdhani', sans-serif;" class="tttt">Rasedul</span>
                     </a>
@@ -125,104 +126,41 @@
                 </div>
             </div>
             <div class="mainContent">
+                <div class="settingForm">
 
-                <div class="order_q">
-                    <div class="orderlist">
-                        <div class="leftside">
-                            <div style="padding-right: 30px">
-                                <span>Withdrawl List</span>
+                    <div class="mt-50px">
+                        <h1>Withdrawl update </h1>
+                        <form action="#">
+                            <div class="inputBox">
+                                <label for="lgt31">Order ID</label>
+                                <input type="text" name="" id="lgt31" value="2334" disabled>
                             </div>
-                            <div>
-                                <!-- <form action="">
-                                    <select name="" id="" >
-                                        <option value="">Delivered</option>
-                                        <option value="">Queue</option>
-                                        <option value="">Dismiss</option>
-                                    </select>
-                                </form> -->
+                            <div class="inputBox">
+                                <label for="jfakl">Name</label>
+                                <input type="text" name="" id="jfakl" value="Kh Rasedul" disabled>
                             </div>
-                        </div>
-                        <div class="rightside">
-                            <form action="">
-                                
-                                <!-- <span style="margin-top: 20px;">
-                                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px"><path d="M 19 3 C 13.488281 3 9 7.488281 9 13 C 9 15.394531 9.839844 17.589844 11.25 19.3125 L 3.28125 27.28125 L 4.71875 28.71875 L 12.6875 20.75 C 14.410156 22.160156 16.605469 23 19 23 C 24.511719 23 29 18.511719 29 13 C 29 7.488281 24.511719 3 19 3 Z M 19 5 C 23.429688 5 27 8.570313 27 13 C 27 17.429688 23.429688 21 19 21 C 14.570313 21 11 17.429688 11 13 C 11 8.570313 14.570313 5 19 5 Z"/></svg>
-                                </span> -->
-
-                                <input type="text" placeholder="Search here" name="" id="">
-                                <!-- <button type="submit">
-                                    <img src="./img/search.png" alt="Search">
-                                </button> -->
-                            </form>
-                        </div>
-                    </div>
-                    <table class="mt-30px">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Token</th>
-                                <th>Amount</th>
-                                <th>Payment Method</th>
-                                <th>Status</th>
-                                <th>Date</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>KH Rasedul</td>
-                                <td>1200 BnQ</td>
-                                <td>$1200</td>
-                                <td>Visa Card</td>
-                                <td>Delivered</td>
-                                <td>12/05/2022</td>
-                                <td>
-                                    <button>
-                                        <a href="./withdrawUpdate.html"> 📝 Edit</a>
-                                    </button> ||
-                                    <button>
-                                        <a href=""> ✖ Delete</a>
-                                    </button>
-                                </td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
-
-
-                    <div class="pagination">
-                        <div class="leftpagination">
-                            <form action="">
-                                <select name="per_page" id="">
-                                    <option value="10">10</option>
-                                    <option value="20">20</option>
-                                    <option value="50">50</option>
-                                    <option value="100">100</option>
+                            <div class="inputBox">
+                                <label for="kfjak">Amount</label>
+                                <input type="text" name="" id="kfjak" value="3473" disabled>
+                            </div>
+                           
+                            <div class="inputBox">
+                                <label for="ajkfka">Withdrawl status</label>
+                                <select class="select-x" name="" id="ajkfka">
+                                    <option value="">Delivered</option>
+                                    <option value="">Pending</option>
+                                    <option value="">Dismiss</option>
                                 </select>
-                                <span>Per page</span>
-                            </form>
-                            
-                        </div>
-                        <div class="rightpagination">
-                            <form action="">
-                                <span>1 - 15 of 60 </span>
-                                <button>
-                                    <a href="#">≪</a>
-                                </button>
-                                <input style="width: 40px; " type="text" name="" id="">
-                                <span> of 4</span>
-                                <button>
-                                    <a href="#">≫</a>
-                                </button>
-                            </form>
-                        </div>
+                            </div>
+
+                            <button type="submit">Update</button>
+                        </form>
                     </div>
                 </div>
-
             </div>
         </div>
+
+        
     </div>
 
     <script src="./js/app.js"></script>
